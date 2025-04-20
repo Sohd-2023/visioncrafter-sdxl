@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.egg-info/
+
+# System
+.DS_Store
+*.log
+
+# Images
+*.png
+*.jpg
+output.png
