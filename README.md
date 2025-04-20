@@ -1,5 +1,3 @@
-# visioncrafter-sdxl
-A Text-to-Image Generation Model Using Stability-AI on DeepInfra
 # VisionCrafter-SDXL 🚀🖼️
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -7,7 +5,8 @@ A Text-to-Image Generation Model Using Stability-AI on DeepInfra
 [![Model: SDXL](https://img.shields.io/badge/Model-SDXL-purple.svg)](https://deepinfra.com)
 [![DeepInfra API](https://img.shields.io/badge/API-DeepInfra-blue)](https://deepinfra.com)
 
-> Generate stunning, high-fidelity images from text prompts using the `stability-ai/sdxl` model on DeepInfra. Fully open-source, customizable, and lightweight.
+> This model generates stunning high-quality images from text prompts using the `stability-ai/sdxl` model via the DeepInfra API.
+  This is a fully open-source, customizable, and lightweight model.
 
 ---
 
@@ -23,5 +22,19 @@ A Text-to-Image Generation Model Using Stability-AI on DeepInfra
 
 ## 🖥️ Demo
 
+## Installation
 ```bash
-python visioncrafter.py --prompt "a serene forest under moonlight" --output forest.png
+pip install -r requirements.txt
+```
+
+## Usage
+```bash
+python tti_model.py --prompt "a futuristic city skyline at sunset" --output output.png
+```
+
+## Configuration
+Modify `config_tti.json` to adjust:
+- Model version
+- Guidance scale
+- Number of inference steps
+
