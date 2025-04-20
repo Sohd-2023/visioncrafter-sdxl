@@ -5,6 +5,25 @@
 [![Model: SDXL](https://img.shields.io/badge/Model-SDXL-purple.svg)](https://deepinfra.com)
 [![DeepInfra API](https://img.shields.io/badge/API-DeepInfra-blue)](https://deepinfra.com)
 
+
+✅ Model: Text-to-Image (SDXL via DeepInfra API)
+
+Script Name: tti_model.py
+
+Config File: config_tti.json
+
+Custom Parameters:
+
+Model: stability-ai/sdxl
+
+Guidance Scale: 7.5
+
+Inference Steps: 50
+
+Custom Feature: Easily editable configuration via JSON.
+
+
+
 >This model generates stunning high-quality images from natural language prompts using the `stability-ai/sdxl` model via the DeepInfra API.
   This is a fully open-source, customizable, and lightweight model.
 
