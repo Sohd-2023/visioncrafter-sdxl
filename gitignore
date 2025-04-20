@@ -1,24 +1,45 @@
-# Python
+# ------------------------
+# Python Cache & Metadata
+# ------------------------
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
-
-# Jupyter
-.ipynb_checkpoints
-
-# Virtual environments
-env/
-venv/
-ENV/
 *.egg-info/
-
-# System
-.DS_Store
+.eggs/
 *.log
 
-# Images
+# ------------------------
+# Virtual Environments
+# ------------------------
+env/
+ENV/
+venv/
+.venv/
+
+# ------------------------
+# Jupyter Checkpoints (if any)
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Output Files
+# ------------------------
 *.png
 *.jpg
-output.png
+*.jpeg
+output.*
+
+# ------------------------
+# OS/System Files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# VS Code / PyCharm / IDE Configs
+# ------------------------
+.vscode/
+.idea/
+*.iml
