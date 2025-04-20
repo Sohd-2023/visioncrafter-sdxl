@@ -1,0 +1,5 @@
+{
+  "model": "stability-ai/sdxl",
+  "guidance_scale": 7.5,
+  "num_inference_steps": 50
+}
