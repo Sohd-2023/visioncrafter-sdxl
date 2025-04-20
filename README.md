@@ -5,7 +5,7 @@
 [![Model: SDXL](https://img.shields.io/badge/Model-SDXL-purple.svg)](https://deepinfra.com)
 [![DeepInfra API](https://img.shields.io/badge/API-DeepInfra-blue)](https://deepinfra.com)
 
-> This model generates stunning high-quality images from text prompts using the `stability-ai/sdxl` model via the DeepInfra API.
+>This model generates stunning high-quality images from natural language prompts using the `stability-ai/sdxl` model via the DeepInfra API.
   This is a fully open-source, customizable, and lightweight model.
 
 ---
